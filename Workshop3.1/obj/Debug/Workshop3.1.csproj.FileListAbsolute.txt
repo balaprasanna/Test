@@ -7,3 +7,9 @@ c:\users\a0123057n\documents\visual studio 2013\Projects\Workshop3.1\Workshop3.1
 C:\Users\Prasanna Mac\Documents\Workshop3.1\bin\Debug\Workshop3.1.exe.config
 C:\Users\Prasanna Mac\Documents\Workshop3.1\obj\Debug\Workshop3.1.exe
 C:\Users\Prasanna Mac\Documents\Workshop3.1\obj\Debug\Workshop3.1.pdb
+C:\Users\Prasanna Mac\Documents\GitHub\Test\Workshop3.1\bin\Debug\Workshop3.1.exe.config
+C:\Users\Prasanna Mac\Documents\GitHub\Test\Workshop3.1\obj\Debug\Workshop3.1.exe
+C:\Users\Prasanna Mac\Documents\GitHub\Test\Workshop3.1\obj\Debug\Workshop3.1.pdb
+C:\Users\Prasanna Mac\Documents\GitHub\Test\Workshop3.1\bin\Debug\Workshop3.1.exe
+C:\Users\Prasanna Mac\Documents\GitHub\Test\Workshop3.1\bin\Debug\Workshop3.1.pdb
+C:\Users\Prasanna Mac\Documents\GitHub\Test\Workshop3.1\obj\Debug\Workshop3.1.csprojResolveAssemblyReference.cache
