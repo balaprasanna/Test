@@ -13,3 +13,6 @@ C:\Users\Prasanna Mac\Documents\GitHub\Test\Workshop3.1\obj\Debug\Workshop3.1.pd
 C:\Users\Prasanna Mac\Documents\GitHub\Test\Workshop3.1\bin\Debug\Workshop3.1.exe
 C:\Users\Prasanna Mac\Documents\GitHub\Test\Workshop3.1\bin\Debug\Workshop3.1.pdb
 C:\Users\Prasanna Mac\Documents\GitHub\Test\Workshop3.1\obj\Debug\Workshop3.1.csprojResolveAssemblyReference.cache
+C:\Users\Prasanna Mac\Source\Repos\Test123\Workshop3.1\bin\Debug\Workshop3.1.exe.config
+C:\Users\Prasanna Mac\Source\Repos\Test123\Workshop3.1\obj\Debug\Workshop3.1.exe
+C:\Users\Prasanna Mac\Source\Repos\Test123\Workshop3.1\obj\Debug\Workshop3.1.pdb

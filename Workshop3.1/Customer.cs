@@ -8,6 +8,7 @@ namespace Workshop3._1
 {
     class Customer
     {
+        //testing
        public String CustomerName;
        public String CustomerAddress;
        public String PassportNumber;
