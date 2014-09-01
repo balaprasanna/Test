@@ -6,26 +6,25 @@ using System.Threading.Tasks;
 
 namespace Workshop3._1
 {
+   
     class Class5
     {
-
-        static void Main()
-        {
-            Coin1 c = new Coin1();
-            c.FaceValue1 = 10;
-           // c.getFace();
-            Console.WriteLine(c.getFace());
-            Console.WriteLine(c.FaceValue1);
-        }
-
     }
    class Coin1{
 
-        int face;
+       protected int temp = 0;
+        public int face=0;
         int FaceValue;
 
-        public int FaceValue1
+        public Coin1()
         {
+            face = 1;
+            Console.WriteLine("default constructor coin  " + face);
+            // this is called everytime when an object is created,
+        } 
+
+        public int FaceValue1
+        { 
             get { 
                 return FaceValue; 
             }
@@ -40,13 +39,17 @@ namespace Workshop3._1
 
         //Constructor
         //default instance constructor
-        public Coin1()
-        {
-            face = 1;
-            Console.WriteLine("default constructor coin  " + face);
-            // this is called everytime when an object is created,
-        }
       
-
+        static void Main()
+        {
+           
+            Coin1 c = new Coin1();
+             c.FaceValue1 = 10;
+           
+            // c.getFace();
+            Console.WriteLine(c.getFace());
+            Console.WriteLine(c.FaceValue1);
+        }
+       
     }
 }
