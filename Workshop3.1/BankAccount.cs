@@ -8,6 +8,7 @@ namespace Workshop3._1
 {
     class BankAccount
     {
+        //tests
         int accountNumber;
         //String accountHolderName;
         //Customer AccountHolder;
