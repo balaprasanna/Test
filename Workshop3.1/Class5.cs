@@ -12,14 +12,27 @@ namespace Workshop3._1
         static void Main()
         {
             Coin1 c = new Coin1();
+            c.FaceValue1 = 10;
            // c.getFace();
             Console.WriteLine(c.getFace());
+            Console.WriteLine(c.FaceValue1);
         }
 
     }
    class Coin1{
 
         int face;
+        int FaceValue;
+
+        public int FaceValue1
+        {
+            get { 
+                return FaceValue; 
+            }
+            set { 
+                FaceValue = value; 
+            }
+        }
        public int getFace()
         {
             return face;
