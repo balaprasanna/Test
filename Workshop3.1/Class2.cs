@@ -32,6 +32,10 @@ namespace Workshop3._1
      }
   public class Coin
     {
+      public Coin()
+      {
+          this.flip();
+      }
       const int HEAD = 0;
       const int TAIL = 1;
 
