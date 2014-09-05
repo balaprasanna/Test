@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Workshop3._1.Class5</StartupObject>
+    <StartupObject>Workshop3._1.Class7</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -51,6 +51,8 @@
     <Compile Include="Class3.cs" />
     <Compile Include="Class4.cs" />
     <Compile Include="Class5.cs" />
+    <Compile Include="Class6.cs" />
+    <Compile Include="Class7.cs" />
     <Compile Include="Customer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

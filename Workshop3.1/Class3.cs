@@ -10,11 +10,11 @@ namespace Workshop3._1
     {
          static bool flag = true;
            int age;
-           void setAge(int newage)
+           void setAge(int Age)
         {
-            if (newage < 50)
+            if (Age < 50)
             {
-                age = newage;
+                this.age = Age;
                 flag = false;
             }
             else

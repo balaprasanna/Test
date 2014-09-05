@@ -9,6 +9,16 @@ namespace Workshop3._1
    
     class Class5
     {
+        static void Main()
+        {
+
+            Coin1 c = new Coin1();
+            c.FaceValue1 = 10;
+
+            // c.getFace();
+            Console.WriteLine(c.getFace());
+            Console.WriteLine(c.FaceValue1);
+        }
     }
    class Coin1{
 
@@ -25,7 +35,8 @@ namespace Workshop3._1
 
         public int FaceValue1
         { 
-            get { 
+            get 
+            { 
                 return FaceValue; 
             }
             set { 
@@ -40,16 +51,7 @@ namespace Workshop3._1
         //Constructor
         //default instance constructor
       
-        static void Main()
-        {
-           
-            Coin1 c = new Coin1();
-             c.FaceValue1 = 10;
-           
-            // c.getFace();
-            Console.WriteLine(c.getFace());
-            Console.WriteLine(c.FaceValue1);
-        }
+       
        
     }
 }
