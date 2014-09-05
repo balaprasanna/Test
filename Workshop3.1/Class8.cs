@@ -11,14 +11,19 @@ namespace Workshop3._1
         public static void Main()
         {
             int a = 8, b=9;
-            k obj = new k();
+            A obj = new A();
+           
             obj.p(a);
             obj.q(ref b);
             Console.WriteLine("Values are {0}--{1}",a,b);
+            Console.WriteLine("--" + obj.GetType().ToString() + "--"+obj.GetHashCode().ToString());
+            //Console.WriteLine("--" +  "--" + obj2.GetHashCode().ToString());
+            obj = new A();
+            Console.WriteLine("--" + obj.GetType().ToString() + "--" + obj.GetHashCode().ToString());
         }
     }
 
-    class k
+    class A
     {
         public void p(int v)
         {
