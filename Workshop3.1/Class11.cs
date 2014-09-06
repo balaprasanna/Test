@@ -12,10 +12,11 @@ namespace Workshop3._1
         {
             parent p = new parent();
             p.x();
+            
             //p.x();
             child c = new child();
             c.x();
-
+            c.y();
             //Coin mycoin = new Coin();
  
             //mycoin.flip();
@@ -72,6 +73,11 @@ namespace Workshop3._1
         public new void x()
         {
             Console.WriteLine("Child x");
+        }
+        public void y()
+        {
+            this.x();
+            base.x();
         }
 
         // : is derived from
