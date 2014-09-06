@@ -10,11 +10,12 @@ namespace Workshop3._1
     {
         static void Main()
         {
-     //       rectangle r = new rectangle(5, 4);
+            rectangle r = new rectangle(5, 4);
             parallelogram p = new parallelogram(5,4,20);
-            Console.WriteLine("finally Area"+p.getArea()+"-perimeter"+p.getPerimeter());
-            parallelogram q = new parallelogram(10, 5, 34);
-            q.method1(q);
+            Console.WriteLine("finally Area"+r.getArea()+"-perimeter"+r.getPerimeter());
+            Console.WriteLine("finally Area" + p.getArea() + "-perimeter" + p.getPerimeter());
+            // parallelogram q = new parallelogram(10, 5, 34);
+            //q.method1(q);
         }
     }
     class rectangle
@@ -57,14 +58,24 @@ namespace Workshop3._1
             this.angle = angle;
            // base.getArea();
            // base.getPerimeter();
-            Console.WriteLine("Area" + "length "+this.getlength()+"width"+this.getwidth()+  getArea() + "-perimeter" + this.getPerimeter());
-            //method1(this);
+           //Console.WriteLine("Area" + "length "+this.getlength()+"width"+this.getwidth()+ "Area is"+  this.getArea() + "-perimeter" + this.getPerimeter());
+           //method1(this);
         }
-        public void method1(parallelogram pm)
+        public new int getArea()
         {
-            pm.setProperties(2, 2);
-            Console.WriteLine("Area" + pm.getArea() + "-perimeter" + pm.getPerimeter());
-            
+
+            return (int)(getlength() * getwidth() * Math.Sin(angle * (Math.PI / 180)));
         }
+        public new int getPerimeter()
+        {
+
+            return 2*(getlength() + getwidth());
+        }
+        //public void method1(parallelogram pm)
+        //{
+        //    pm.setProperties(2, 2);
+        //    Console.WriteLine("Area" + pm.getArea() + "-perimeter" + pm.getPerimeter());
+            
+        //}
     } 
 }
