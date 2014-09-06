@@ -10,14 +10,14 @@ namespace Workshop3._1
     {
         static void Main()
         {
-            rectangle r = new rectangle(5, 4);
-            parallelogram p = new parallelogram(5,4,20);
+            rectangle r = new rectangle(4, 5);
+            parallelogram p = new parallelogram(10,15,60);
             Console.WriteLine("finally Area"+r.getArea()+"-perimeter"+r.getPerimeter());
             Console.WriteLine("finally Area" + p.getArea() + "-perimeter" + p.getPerimeter());
             // parallelogram q = new parallelogram(10, 5, 34);
-            //q.method1(q);
+            //q.method1(q);  
         }
-    }
+    } 
     class rectangle
     {
       private int length;
