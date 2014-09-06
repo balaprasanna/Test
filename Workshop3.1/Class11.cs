@@ -10,7 +10,8 @@ namespace Workshop3._1
     {
         static void Main()
         {
-            //parent p = new parent();
+            parent p = new parent();
+            p.x();
             //p.x();
             //child c = new child();
             //c.x();
@@ -50,16 +51,24 @@ namespace Workshop3._1
             return country;
         }
     }
-    // class parent
-    //{
-    //    public void x()
-    //    {
-    //        Console.WriteLine("Hi");
-    //    }
-    //}
-    //class child : parent
-    //{
-       
-    //    // : is derived from
-    //}
+    class parent
+    {
+         public bool accessme = false;
+        public void x()
+        {
+            Console.WriteLine("Hi");
+            accessme = true;
+        }
+    }
+    class child : parent
+    {
+        private bool receive;
+        public child()
+        {
+            receive = false;
+           
+            accessme = true;
+        }
+        // : is derived from
+    }
 }
