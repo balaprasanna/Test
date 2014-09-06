@@ -53,7 +53,7 @@ namespace Workshop3._1
     }
     class parent
     {
-         public bool accessme = false;
+         protected bool accessme = false;
         public void x()
         {
             Console.WriteLine("Hi");
