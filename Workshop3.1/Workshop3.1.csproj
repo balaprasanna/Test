@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Workshop3._1.Class9</StartupObject>
+    <StartupObject>Workshop3._1.Class11</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

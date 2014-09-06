@@ -35,6 +35,12 @@ namespace Workshop3._1
       public Coin()
       {
           this.flip();
+          Console.WriteLine("base class constructor called");
+      }
+      public Coin(int i)
+      {
+         
+          Console.WriteLine("base class constructor with one arg called");
       }
       const int HEAD = 0;
       const int TAIL = 1;
@@ -44,7 +50,7 @@ namespace Workshop3._1
         {
             
             face = (new Random()).Next(2);
-            
+            Console.WriteLine(face);
         }
       
         public int getFace()
