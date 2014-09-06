@@ -13,8 +13,8 @@ namespace Workshop3._1
             parent p = new parent();
             p.x();
             //p.x();
-            //child c = new child();
-            //c.x();
+            child c = new child();
+            c.x();
 
             //Coin mycoin = new Coin();
  
@@ -56,7 +56,7 @@ namespace Workshop3._1
          protected bool accessme = false;
         public void x()
         {
-            Console.WriteLine("Hi");
+            Console.WriteLine("Parent x");
             accessme = true;
         }
     }
@@ -69,6 +69,11 @@ namespace Workshop3._1
            
             accessme = true;
         }
+        public new void x()
+        {
+            Console.WriteLine("Child x");
+        }
+
         // : is derived from
     }
 }
